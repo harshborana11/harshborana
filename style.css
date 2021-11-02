@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -26,11 +26,12 @@ header{
 }
 
 header .logo{
+    font-family: 'Dancing Script', cursive;
     position: relative;
     display: inline-flex;
     color: var(--black);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 5em;
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase;
