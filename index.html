@@ -27,17 +27,16 @@
 <h2>Harsh</h2>
 <p class="copyrightText">© Harsh Borana 2021</p>
 <ul class="sci">
-  <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
-  <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
-  <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+  <li><a href="https://www.facebook.com/harsh.borana.503"><ion-icon name="logo-facebook"></ion-icon></a></li>
+  <li><a href="https://www.instagram.com/harshborana_/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+  <li><a href="https://twitter.com/harshborana16"><ion-icon name="logo-twitter"></ion-icon></a></li>
 </ul>
 </section>
 
 <ul class="navigation">
   <li><a href="#">home</a></li>
-  <li><a href="#">about</a></li>
-  <li><a href="#">pakage</a></li>
-  <li><a href="#">contact</a></li>
+  <li><a  onclick="about()" href="#">about</a></li>
+  <li><a  onclick="about()" href="#">contact</a></li>
 </ul>
 <script>
   let dayNight = document.querySelector('.dayNight')
@@ -52,9 +51,12 @@
   menuToggle.onclick = function(){
     menuToggle.classList.toggle('active')
     navigation.classList.toggle('active')
+  } 
+  function about(){
+    swal("In Progress", "Comming Soon", "error")
   }
 </script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
