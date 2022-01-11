@@ -15,13 +15,14 @@ body{
 
 .text-box{
   margin-top: 15%;
-  font-size: 17px;
+  font-size: 7rem;
   letter-spacing: 1px;
   line-height: 26px;
   margin-left: 25%;
+  padding-bottom: 2rem;
 }
 
-.text-box h1{
+.text-box .fixed-text{
   font-size: 75px;
   line-height: 160px;
   color: #fff;
@@ -35,37 +36,58 @@ body{
 
 
 .aboutMe{
-  font-family: 'Teko', sans-serif;
-    position: absolute;
-    top: 40%;
-    left: 40%;
+    font-family: 'Teko', sans-serif;
     color: rgb(255, 226, 226);
     letter-spacing: 1px;
     line-height: 26px;
     font-size: 3rem;
   }
+  .img{
+    position: absolute ;
+    bottom: 0;
+    right: 0;
+    
+  }
+  @media screen and (max-width:1388px) {
+    body{
+      background-image: url(bg1.jpg);
+    }
+  }
 @media screen and (max-width: 995px), 
        screen and (max-height: 700px){
+         body{
+           background-image: url(bg1.png);
+         }
+         .hadding{
+           font-size: 2em;
+         }
   .text-box{
-    position: absolute;
-    top: 6%;
-    left: 10%;
     justify-content: center;
     align-items: center;
     display: grid;
     line-height: 10rem;
     font-size: 8rem;
+    margin-top: 50%;
   }
   @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Teko:wght@300&display=swap');
-.aboutMe{
-font-family: 'Teko', sans-serif;
-  position: absolute;
-  top: 15%;
-  left: 30%;
-  color: rgb(255, 226, 226);
-  letter-spacing: 1px;
-  line-height: 26px;
-  margin-left: 5%; 
-  font-size: 3rem;
+
+  .text-box .aboutMe{
+    font-family: 'Teko', sans-serif;
+    position: fixed;
+    padding-bottom: 3em;
+      color: rgb(0, 255, 221);
+      letter-spacing: 1px;
+      line-height: 26px;
+      font-size: 3rem;
+    }
+    .text-box .fixed-text{
+      position: fixed;
+      }
+      
 }
+@media screen and (max-width:1388px) {
+  .img{
+    display: none;
+    
+  }
 }
