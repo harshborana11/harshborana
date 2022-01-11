@@ -35,11 +35,9 @@ body{
 }
 
 
-
-
 .aboutMe{
     font-family: 'Teko', sans-serif;
-    color: rgb(255, 226, 226);
+    color:rgb(0, 255, 221);
     letter-spacing: 1px;
     line-height: 26px;
     font-size: 3rem;
