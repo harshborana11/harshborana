@@ -1,0 +1,52 @@
+body {
+background: url(bg.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+letter-spacing: 1px;
+background-size: cover;
+font-family: Righteous;
+}
+.hadding{
+
+position: absolute;
+left: 3%;
+top: 10px;
+font-size: 1em;
+font-style: normal;
+font-weight: normal;
+
+color: #E29DB2;
+
+}
+
+.follow{
+position: absolute;
+left: 3%;
+bottom: 10%;
+color: #FFFFFF;
+font-size: 1.75rem;
+
+img{
+    height: 50px;
+}
+
+}
+
+
+.imgharsh{
+position: absolute;
+width: 26%;
+height: 90%x;
+right: 25px;
+bottom: 0px;
+}
+
+.text-box{
+    color: #f8e6eb;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.text-box .typing{
+    color: #E29DB2;
+}

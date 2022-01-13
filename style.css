@@ -1,93 +1,50 @@
-*{
-    font-family: 'Righteous', cursive;
-    margin: 0%;
-}
-body{
-    background: url(bg.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.hadding{
-    color: #fff;
-    margin: 2%;
-    
-}
-
-.text-box{
-  margin-top: 15%;
-  font-size: 7rem;
+body {
+  background: url(bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   letter-spacing: 1px;
-  line-height: 26px;
-  margin-left: 25%;
-  padding-bottom: 2rem;
+  background-size: cover;
+  font-family: Righteous;
 }
 
-.text-box .fixed-text{
-  font-size: 75px;
-  line-height: 160px;
-  color: #fff;
+.hadding {
+  position: absolute;
+  left: 3%;
+  top: 10px;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  color: #E29DB2;
 }
 
-.text-box span{
-  font-size: 75px;
-  line-height: 160px;
-  color: #13ffff;
+.follow {
+  position: absolute;
+  left: 3%;
+  bottom: 10%;
+  color: #FFFFFF;
+  font-size: 1.75rem;
 }
 
-
-.aboutMe{
-    font-family: 'Teko', sans-serif;
-    color:rgb(0, 255, 221);
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-size: 3rem;
-  }
-  .img{
-    position: absolute ;
-    bottom: 0;
-    right: 0;
-    
-  }
-  @media screen and (max-width:1388px) {
-    body{
-      background-image: url(bg1.jpg);
-    }
-  }
-@media screen and (max-width: 995px), 
-       screen and (max-height: 700px){
-         body{
-           background-image: url(bg1.png);
-         }
-         .hadding{
-           font-size: 2em;
-         }
-  .text-box{
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    line-height: 10rem;
-    font-size: 8rem;
-    margin-top: 50%;
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Teko:wght@300&display=swap');
-
-  .text-box .aboutMe{
-    font-family: 'Teko', sans-serif;
-    position: fixed;
-    padding-bottom: 3em;
-      color: rgb(0, 255, 221);
-      letter-spacing: 1px;
-      line-height: 26px;
-      font-size: 3rem;
-    }
-    .text-box .fixed-text{
-      position: fixed;
-      }
-      
+.follow img {
+  height: 50px;
 }
-@media screen and (max-width:1388px) {
-  .img{
-    display: none;
-    
-  }
+
+.imgharsh {
+  position: absolute;
+  width: 26%;
+  height: 90%x;
+  right: 25px;
+  bottom: 0px;
 }
+
+.text-box {
+  color: #f8e6eb;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.text-box .typing {
+  color: #E29DB2;
+}
+/*# sourceMappingURL=style.css.map */
