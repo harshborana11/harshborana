@@ -1,7 +1,6 @@
 body {
-  background: url(bg.jpg);
+  background: url(bg.jpg) no-repeat;
   background-size: 100%;
-  background-repeat: no-repeat;
   letter-spacing: 1px;
   background-size: cover;
   font-family: Righteous;
@@ -46,5 +45,33 @@ body {
 
 .text-box .typing {
   color: #E29DB2;
+}
+
+@media screen and (max-height: 900px) {
+  .hadding {
+    font-size: 2em;
+  }
+  .text-box {
+    color: #ff0055;
+    font-size: 15%;
+  }
+}
+
+@media screen and (max-width: 1226px) {
+  body {
+    background: url(bg.jpg) center bottom;
+  }
+  .hadding {
+    color: #ff0055;
+  }
+  .text-box {
+    color: #ff0055;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+  }
+  .text-box .typing {
+    color: #ffd3e0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
